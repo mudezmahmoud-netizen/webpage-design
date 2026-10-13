@@ -123,20 +123,22 @@ button a{
     color: #000;
     font-weight: bold;
 }
-
 .contact-section {
     padding: 60px 20px;
     background: linear-gradient(to bottom, #001f3f, #001122); 
+     background-image: url(background.jpg)
     color: #fff;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
 }
 
 .contact-section h2 {
     color: #ff7200; 
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 form {
@@ -188,3 +190,79 @@ form {
     background: #fff;
     color: #ff7200;
 }
+.design section{
+   margin: 0 43px;
+    padding: 30px; 
+    background: rgba(6, 23, 39, 0.85); 
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    border-radius: 12px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+     color: white; 
+     font-family: Arial, sans-serif;
+ }
+
+.design-section h3 {
+    color: #ff7200; 
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.design-section p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.footer { 
+    background: #061727; 
+    position: fixed;
+    color: #001f3f;
+    padding: 40px 5% 15px; 
+    border-top: 3px solid #ff7200;
+    font-family: Arial, sans-serif; 
+     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+     grid-template-columns: 1fr; 
+     gap: 10px;
+    background-image: url(glass.avif);
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh
+}
+.footer h2{
+    font-size: 28px;
+    margin-top: 0;
+    color: #ff7200;
+}
+.footer h3{
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #fff;
+    line-height: 1.8;
+}
+.footer-links a{
+    display: block;
+    color: #ff7200;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+.footer-links a:hover { 
+    color: #ff7200;
+ }
+.footer-bottom { 
+    border-top: 1px solid #294158;
+     padding-top: 15px; 
+     text-align: center;
+     position: relative;
+     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+     grid-template-columns: 1fr; 
+     gap: 10px;
+     background-image: url(glass.avif);
+     background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh
+}
+
